@@ -11,7 +11,7 @@ import Navbar from "../components/Navbar";
 import { FaArrowUp } from "react-icons/fa";
 import Tokenomics from "../components/Tokenomics";
 import LoadingAnimation from "../components/LoadingAnimation";
-import ShimaStory from "../components/ShimaStory";
+import ShimaStory from "../components/OurStory";
 import Nft from "../components/Nft";
 
 const HomePage = () => {
@@ -54,15 +54,17 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
-      <HeroSection />
+      <section id="home">
+        <HeroSection />
+      </section>
       <section id="about-us">
         <AboutUs />
       </section>
-      <section id="OUR STORY">
+      <section id="ourstory">
         <ShimaStory />
       </section>
 
-      <section id="NFT">
+      <section id="nft">
         <Nft />
       </section>
 
