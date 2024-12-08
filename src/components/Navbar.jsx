@@ -56,7 +56,7 @@ onClick={(e) => handleSmoothScroll(e, "#home")}
           <ul className="hidden lg:flex space-x-8 font-[Gluten] text-xl text-black font-bold mx-auto">
 {[
               { name: "About Us", href: "#about-us" },
-              { name: "OUR STORY", href: "#shimastory" },
+              { name: "OUR STORY", href: "#ourstory" },
               { name: "Features", href: "#features" },
               { name: "ABOUT", href: "#about-us" },
               { name: "OUR STORY", href: "#ourstory" },
@@ -161,7 +161,7 @@ rel="noopener noreferrer"
 <ul className="flex flex-col items-center space-y-4 py-4 font-[Gluten] text-lg text-black font-semibold">
 {[
               { name: "About Us", href: "#about-us" },
-              { name: "OUR STORY", href: "#shimastory" },
+              { name: "OUR STORY", href: "#ourstory" },
               { name: "Features", href: "#features" },
               { name: "ABOUT", href: "#about-us" },
               { name: "OUR STORY", href: "#ourstory" },
