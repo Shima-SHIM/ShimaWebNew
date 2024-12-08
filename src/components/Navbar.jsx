@@ -30,7 +30,7 @@ const Navbar = () => {
           </a>
 
           {/* Navigation Links */}
-          <ul className="hidden lg:flex space-x-8 font-[Gluten] text-xl text-black font-bold mx-auto">
+          <ul className="hidden lg:flex space-x-16 font-[Gluten] text-xl text-black font-bold mx-auto">
             {[
               { name: "ABOUT", href: "#about-us" },
               { name: "OUR STORY", href: "#ourstory" },
