@@ -99,9 +99,11 @@ const AboutUs = () => {
               ecosystem where community participation and environmental
               consciousness converge.
             </p>
-            <button className="px-8 py-4 bg-[#121325] text-white text-lg lg:text-xl rounded-full font-bold shadow-md hover:bg-orange-400 hover:text-[#121325] transition-all duration-300">
+            <a href="https://whitepaper.shimanest.io/shima/audit-and-kyc" target="_blank">
+              <button className="px-8 py-4 bg-[#121325] text-white text-lg lg:text-xl rounded-full font-bold shadow-md hover:bg-orange-400 hover:text-[#121325] transition-all duration-300">
               View Audit & KYC
             </button>
+            </a>
           </div>
         </div>
       </div>
