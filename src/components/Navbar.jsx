@@ -56,7 +56,7 @@ const Navbar = () => {
           {/* Social Media Icons and Whitepaper */}
           <div className="hidden lg:flex space-x-6 items-center">
             <a
-              href="https://whitepaper.shimanest.io/shima"
+              href="https://whitepaper.shimanest.io/shima" target="_blank"
               className="px-6 py-2 bg-[#121325] text-white font-[Gluten] text-lg rounded-full shadow-md hover:bg-orange-400 hover:text-[#121325] transition-all duration-300"
             >
               Whitepaper
@@ -145,7 +145,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4 items-center mt-4">
               <a
-                href="https://whitepaper.shimanest.io/shima"
+                href="https://whitepaper.shimanest.io/shima" target="_blank"
                 className="px-6 py-2 bg-[#121325] text-white font-[Gluten] text-lg rounded-full shadow-md hover:bg-orange-400 hover:text-[#121325] transition-all duration-300"
               >
                 Whitepaper
