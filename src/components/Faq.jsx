@@ -26,7 +26,7 @@ const Faq = () => {
     {
       question: "How can I buy SHIMA tokens?",
       answer:
-        "You can purchase SHIMA tokens during the pre-sale phase on our official platform. Connect your crypto wallet to get started, and you'll have the opportunity to buy SHIMA at exclusive pre-sale rates. Make sure to monitor our updates to secure your SHIMA tokens early and take advantage of lower prices.",
+        "The presale of SHIMA tokens has been successfully completed, and all SHIMA assets have been sold out. We are now in the process of distribution and listing. Our DEX program is ongoing, and preparations for the token distribution are underway. Stay updated by following our official social media channels and continue to take advantage of upcoming opportunities. Thank you for your interest, and we look forward to sharing the next steps with you!",
     },
     {
       question: "What makes SHIMA token unique?",
