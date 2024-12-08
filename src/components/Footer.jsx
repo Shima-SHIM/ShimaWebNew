@@ -76,40 +76,40 @@ const Footer = () => {
               },
               {
                 label: "Abstract",
-                link: "https://shima-enaga-shim.gitbook.io/",
+                link: "https://whitepaper.shimanest.io/shima/abstract",
               },
               {
                 label: "Introduction",
-                link: "https://shima-enaga-shim.gitbook.io/",
+                link: "https://whitepaper.shimanest.io/shima/introduction",
               },
               {
                 label: "Tokenomics",
-                link: "https://shima-enaga-shim.gitbook.io/",
+                link: "https://whitepaper.shimanest.io/shima/tokenomics",
               },
               {
                 label:
                   "Blockchain: SUI - The Foundation for a Thriving Ecosystem",
-                link: "https://shima-enaga-shim.gitbook.io/",
+                link: "https://whitepaper.shimanest.io/shima/blockchain/sui-the-foundation-for-a-thriving-ecosystem",
               },
               {
                 label: "CORE FEATURES",
-                link: "https://shima-enaga-shim.gitbook.io/",
+                link: "https://whitepaper.shimanest.io/shima/core-features/gamified-airdrop",
               },
               {
                 label: "Technology and Scalability",
-                link: "https://shima-enaga-shim.gitbook.io/",
+                link: "https://whitepaper.shimanest.io/shima/technology-and-scalability",
               },
               {
                 label: "Roadmap and Future Vision",
-                link: "https://shima-enaga-shim.gitbook.io/",
+                link: "https://whitepaper.shimanest.io/shima/roadmap-and-future-vision",
               },
               {
                 label: "Conclusion",
-                link: "https://shima-enaga-shim.gitbook.io/",
+                link: "https://whitepaper.shimanest.io/shima/conclusion",
               },
               {
                 label: "Disclaimer",
-                link: "https://shima-enaga-shim.gitbook.io/",
+                link: "https://whitepaper.shimanest.io/shima/disclaimer",
               },
             ].map(({ label, link }, index) => (
               <li key={index} className="text-[#121212] text-lg font-gluten">
