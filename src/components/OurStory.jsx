@@ -71,9 +71,12 @@ const ShimaStory = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 2.1, ease: "easeInOut", delay: 1.4 }}
             >
-              <button className="bg-[#FEAC3A] text-white py-2 px-6 rounded-lg font-bold text-2xl hover:bg-[#FFA500] transition-colors duration-300 ease-in-out">
-                Let’s Go to Adventure
-              </button>
+              <a href="https://whitepaper.shimanest.io/shima/core-features/gamified-airdrop">
+  <button className="bg-[#FEAC3A] text-white py-2 px-6 rounded-lg font-bold text-2xl hover:bg-[#FFA500] transition-colors duration-300 ease-in-out">
+    Let’s Go to Adventure
+  </button>
+</a>
+
             </motion.div>
           </div>
         </div>
