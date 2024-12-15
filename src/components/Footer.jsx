@@ -1,5 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import { FaTelegram, FaYoutube } from "react-icons/fa";
+// import { FaTelegram, FaYoutube } from "react-icons/fa";
 import shimaCoin from "../assets/about-coin-center.png";
 import twitter from "../assets/social-button-x.png";
 import telegram from "../assets/social-button-telegram.png";

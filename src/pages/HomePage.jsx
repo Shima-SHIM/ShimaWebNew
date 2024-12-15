@@ -1,5 +1,6 @@
 // src/pages/HomePage.jsx
 
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react";
 import HeroSection from "../components/HeroSection";
 import AboutUs from "../components/AboutUs";
@@ -13,6 +14,8 @@ import Tokenomics from "../components/Tokenomics";
 import LoadingAnimation from "../components/LoadingAnimation";
 import ShimaStory from "../components/OurStory";
 import Nft from "../components/Nft";
+import Gamifield from "../components/Gamifield";
+import LeaderShip from "../components/LeaderShip";
 
 const HomePage = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -57,6 +60,9 @@ const HomePage = () => {
       <section id="home">
         <HeroSection />
       </section>
+      <section id="gamifield">
+        <Gamifield />
+      </section>
       <section id="about-us">
         <AboutUs />
       </section>
@@ -83,6 +89,10 @@ const HomePage = () => {
         <Faq />
       </section>
 
+      <section id="leadership">
+        <LeaderShip />
+      </section>
+      
       <Footer />
 
       {/* Scroll to Top Butonu */}

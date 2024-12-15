@@ -1,5 +1,6 @@
 // src/components/LoadingAnimation.jsx
 
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import coinImage from "../assets/about-coin-center.png"; // Görseli doğru yoldan çağırın

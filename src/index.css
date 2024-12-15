@@ -19,3 +19,111 @@
 .hover\:shadow-glow:hover {
   animation: glow 1.5s infinite;
 }
+
+.gamifield-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.gamifield-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content,
+.right-content {
+  flex: 1;
+}
+
+.center-content {
+  flex: 2;
+  color: white;
+}
+
+.center-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.center-content p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ffaa00;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #ffaa00;
+}
+
+.phone {
+  width: 200px;
+}
+
+.gold {
+  position: absolute;
+  animation: float 3s ease-in-out infinite;
+}
+
+.gold-left {
+  top: 10%;
+  left: 5%;
+}
+
+.gold-right {
+  top: 10%;
+  right: 5%;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.scale-x-100 {
+  transform: scaleX(1);
+}
+.scale-x-0 {
+  transform: scaleX(0);
+}
