@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,6 +9,7 @@ const Faq = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
+      // eslint-disable-next-line no-undef
       setIsLoading(false);
     }, 2000);
     return () => clearTimeout(timer);

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import characterImage from "../assets/home-character-image.png";
 import coinTopLeft from "../assets/coin-top-left.png";
@@ -9,8 +10,8 @@ import arrowLeft from "../assets/arrow-left-angular.png";
 import arrowRight from "../assets/arrow-right-angular.png";
 
 const HeroSection = () => {
-  const scrollToAboutUs = () => {
-    const aboutUsSection = document.getElementById("about-us");
+  const scrollToGamifield = () => {
+    const aboutUsSection = document.getElementById("gamifield");
     if (aboutUsSection) {
       aboutUsSection.scrollIntoView({ behavior: "smooth" });
     }
@@ -48,7 +49,7 @@ const HeroSection = () => {
 
           {/* Buton */}
           <button
-            onClick={scrollToAboutUs}
+            onClick={scrollToGamifield}
             className="group mt-4 lg:mt-6 flex items-center justify-center gap-2 text-[#121325] text-[6vw] lg:text-[2vw] font-[Gluten] font-bold transition-all hover:text-[#FEAC3A] relative z-30"
           >
             <img
