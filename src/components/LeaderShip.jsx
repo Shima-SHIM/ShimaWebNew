@@ -234,7 +234,7 @@ const LeaderShip = () => {
               >
                 <div className="flex items-center justify-between mb-2 w-full">
                   <span className="text-xl font-bold text-gray-700 dark:text-gray-200">
-                    #{index + 1}
+                    #{index + 4}
                   </span>
                   <img
                     src={user.image ? user.image : defaultUserImage}
