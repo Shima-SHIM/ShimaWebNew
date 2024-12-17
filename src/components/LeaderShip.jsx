@@ -238,7 +238,7 @@ const LeaderShip = () => {
                 onClick={() => setSelectedUser(user)}
               >
                 <div className="flex items-center justify-between mb-2 w-full">
-                  <span className="text-xl font-bold text-gray-700 dark:text-gray-200">
+                  <span className="text-3xl font-bold text-yellow-500">
                     #{index + 4}
                   </span>
                   <img
