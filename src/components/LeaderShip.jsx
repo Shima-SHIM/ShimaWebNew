@@ -170,6 +170,11 @@ const LeaderShip = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
                 onClick={() => setSelectedLeader(leader)}
               >
+                <div className="flex items-center justify-center w-full mb-4">
+        <span className="text-3xl font-bold text-yellow-500">
+          #{index + 1}
+        </span>
+      </div>
                 <img
                   src={shimaCharacter ? shimaCharacter : defaultUserImage}
                   alt={leader.fullName}
